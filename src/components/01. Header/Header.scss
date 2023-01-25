@@ -1,0 +1,89 @@
+.header{
+    background-color: #0f0e17;
+    color: #fffffe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.presentation{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.5em;
+    align-items: center;
+    padding-bottom: 2em;
+    line-height: 2em;
+
+    &__h5{
+
+        letter-spacing: 0.1em;
+
+        &--position{
+            color: #a7a9be;
+            letter-spacing: 0.1em;
+
+        }
+    }
+
+    &__h2{
+        letter-spacing: 0.1em;
+
+    }
+
+    &__image{
+        width: 20em;
+        border-radius: 20em;
+        margin-bottom: 3em;
+    }
+
+    &__buttons{
+        width: 25em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 5em;
+        font-weight: 500;
+    }
+
+    &__button--cv{
+        text-decoration: none;
+        color: #fffffe;
+        border: solid 1px #fffffe;
+        border-radius: 1em;
+        padding: 1em;
+        width: 10em;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    &__button--cv:hover{
+        background-color: #fffffe;
+        color: #0f0e17;
+        transition: 0.5s;
+    }
+
+    &__button--contactMe{
+        text-decoration: none;
+        padding: 1em;
+        border: solid 1px #0f0e17;
+        background-color: #fffffe;
+        border-radius: 1em;
+        color: #0f0e17;
+        width: 10em;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    &__button--contactMe:hover{
+        transition: 0.5s;
+        background-color: #0f0e17;
+        color: #fffffe;
+        border: solid 1px #fffffe;
+    }
+
+}
+
