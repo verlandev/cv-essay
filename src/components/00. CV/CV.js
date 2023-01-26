@@ -93,9 +93,37 @@ const CV = {
         date: "2018",
         description: "Prácticas y posterior sustitución por baja laboral de la Directora de Comunicación de la empresa."
     }
-  ], 
+  ],
+  
+  testimonials: [
+    {
+      image: "https://media.licdn.com/dms/image/D4E03AQFlnvIHJcW6yw/profile-displayphoto-shrink_400_400/0/1669290906145?e=1680134400&v=beta&t=gr6XilOtAVW4_pdSYLr5BB4Xs1OP4NuaiqMvjfS9sjw",
+      name: "Sarai Fénix",
+      position: "Copywriter",
+      def:"Antigua alumna y compi de mesa",
+      text: "A lo largo de mi vida laboral no he conocido persona más capacitada que Beatriz. Y lo digo con conocimiento de causa. Ella ha sido mi tutora, mi mentora, mi superior y el apoyo más grande que he tenido en esta aventura que es el mundo del copywriting. Tiene un perfil completo hasta decir basta. Es rigurosa en su trabajo, eficaz, eficiente y comprometida. No importa la cantidad y calidad que necesite el proyecto, ella siempre llega a tiempo y supera las expectativas. Si hay alguien a quien aspiro a parecerme como copywriter, sin duda, es a ella."    
+    },
 
-  Languages: [
+    {
+      image:"https://media.licdn.com/dms/image/C5603AQFa7rRmZQo3IA/profile-displayphoto-shrink_400_400/0/1543751929854?e=1680134400&v=beta&t=1Bjqbq_Ovkqps7E4NuBMX15plh0MJkYgpw5E0-R9_OY",
+      name: "Ángela Puga García",
+      position: "Account Manager",
+      def:"Compañera en las venturas y desventuras del máster",
+      text: "Si ya de por sí fue un auténtico placer trabajar mano a mano con Beatriz en el ámbito académico, ver cómo ha crecido profesionalmente es todo un orgullo. Trabajadora de 10, incansable y siempre con el objetivo puesto en la calidad. Difícilmente alguien se puede arrepentir de compartir ámbito laboral con ella o de contratar sus servicios."
+    },
+
+    {
+      image: "https://media.licdn.com/dms/image/C5603AQFgZWXT-Ib3xw/profile-displayphoto-shrink_100_100/0/1517823488854?e=1680134400&v=beta&t=YENurHrxrzZgIz16HxFt-hTWjKrItEeMuXEE0yIN_Q4",
+      name: "Clara Martínez Larrucea",
+      position: "Marketing Digital & Project Manager",
+      def:"Hermana mayor, también conocida como Pepito Grillo",
+      text: "No sé cómo lo consigue, pero ella sola se mete en más de un jardín. Tiene el don para sacar cualquier cosa que se proponga y aunque al principio parece sufrir porque se cae una y otra vez, le acaba pillando el truco a todo. Y yo que soy la hermana mayor, te puedo decir que le lleva pasando desde que es un mico. Y ojo, no es la típica de 'quien mucho abarca, poco aprieta'. De verdad, mira su trabajo y verás que, en realidad, sabe mucho de todo y encima, se le da bien."
+    },
+
+
+  ],
+
+  languages: [
     {
         language: "Francés",
         level: "Nivel Nativo"
@@ -112,7 +140,7 @@ const CV = {
     }
   ],
 
-  Skills: [
+  skills: [
     "Creatividad",
     "Visión estratégica de negocio",
     "Gestión de equipos",

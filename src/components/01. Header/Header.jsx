@@ -5,7 +5,9 @@ import curriculum from '../../assets/cv-actualizado.pdf'
 
 const Header = ({info}) => {
 
-  const {name, surname, city, birthDate} = info;
+  console.log(info)
+
+  const {name, surname, city} = info;
 
   return (
     <header className='header'>
@@ -13,6 +15,7 @@ const Header = ({info}) => {
             <h5 className='presentation__h5'>Hola, soy</h5>
             <h2 className='presentation__h2'>{name}{' '}{surname}</h2>
             <h5 className='presentation__h5--position'>Full Stack Developer</h5>
+            <p className='presentation__p'>en {city}</p>
         </div>
         <div className='presentation__imageProfile'>
           <img className='presentation__image' src={image} alt={name}/>
