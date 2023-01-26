@@ -94,6 +94,20 @@ const CV = {
         description: "Prácticas y posterior sustitución por baja laboral de la Directora de Comunicación de la empresa."
     }
   ],
+
+  services: [
+    {
+      name: 'Desarrollo Web',
+      info: ['HTML', 'CSS', 'Javascript', 'Node JS', 'React', 'MongoDB']
+
+    },
+
+    {
+      name:'Copywriting',
+      info: ['Landing Pages','Secuencias de emails', 'Copy para adds', 'Copy Web']
+    }
+
+  ],
   
   testimonials: [
     {
@@ -126,12 +140,12 @@ const CV = {
   languages: [
     {
         language: "Francés",
-        level: "Nivel Nativo"
+        level: "nivel Nativo"
     },
 
     {
         language: "Español",
-        level: "Nivel Nativo"
+        level: "nivel Nativo"
     },
 
     {
@@ -142,11 +156,11 @@ const CV = {
 
   skills: [
     "Creatividad",
-    "Visión estratégica de negocio",
+    "Estrategia de negocio",
     "Gestión de equipos",
     "Manejo de datos",
-    "Resolutiva",
-    "Rápida adaptación a los cambios",
+    "Resolución",
+    "Adaptación a los cambios",
     "Liderazgo", 
     "Responsabilidad"
   ]

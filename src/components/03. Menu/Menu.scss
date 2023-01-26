@@ -1,0 +1,55 @@
+.menu{
+    padding-top: 7em;
+    width: 100%;
+    background-color: #201e37;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+
+.showExperience, .showEducation{
+
+    width: 35em;
+    background-color: #2a2a66;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2em;
+    padding: 2em;
+
+    &__h3{
+        color: #6ea0cf;
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    &__p{
+        color: aliceblue;
+        line-height: 2em;
+        text-align: center;
+        padding: 2em
+    }
+
+    &__a{
+        text-decoration: none;
+        background-color: #4cb4f9;
+        border: solid 1px #4cb4f9;
+        padding: 1em;
+        color: #000;
+        width: 20em;
+        text-align: center;
+        border-radius: 1em;
+        margin-top: 1em;
+        transition: 0.3s;
+        font-weight: 500;
+    }
+
+    &__a:hover{
+        border: solid 1px #2a2a66;
+        background-color: aliceblue;
+        transition: 0.3s;
+    }
+}
+

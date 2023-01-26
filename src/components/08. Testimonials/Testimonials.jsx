@@ -4,6 +4,7 @@ import './Testimonials.scss';
 
 const Testimonials = (testimonials) => {
   
+  // console.log(testimonials)
   const testimonialsInfo = testimonials.testimonials
  
     return (

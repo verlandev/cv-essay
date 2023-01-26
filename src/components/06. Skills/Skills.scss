@@ -1,4 +1,87 @@
-.skills{
-    background-color: #b8c1ec ;
-    height: 100vh;
+.habilities{
+    padding-top: 7em;
+    width: 100%;
+    background-color: #201e37;
+    padding-bottom: 5em;
+
+    &__title{
+        display: flex;
+        flex-direction: column;
+        color: #6ea0cf;
+    }
+
+    &__p{
+        text-align: center;
+        padding: 2em;
+        margin: auto;
+        line-height: 1.5em;
+        font-size: 1.1em;
+        color: aliceblue;
+    }
+
+    &__h2{
+        text-align: center;
+        font-size: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+.habilitiesContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.personalSkills, .languages{
+
+    background-color: #2a2a66;
+    padding: 2em;
+    border-radius: 2em;
+
+    &__h3{
+        color:aliceblue;
+        text-align: center;
+        padding-bottom: 3em;
+        color: #6ea0cf;
+        font-size: 1.4em;
+    }
+
+
+    &__ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1em;
+        justify-content: space-between;
+
+
+    }
+
+    &__li{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1em;
+        width: 15em;
+        font-size: 1em;
+    }
+
+    &__img{
+
+        width: 1.5em;
+
+    }
+
+    &__p{
+        color: aliceblue;
+        font-size: 0.9em;
+        font-weight: 600;
+        
+        &--level{
+            color: aliceblue;
+        }
+    }
+
 }

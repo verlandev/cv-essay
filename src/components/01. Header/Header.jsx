@@ -5,8 +5,6 @@ import curriculum from '../../assets/cv-actualizado.pdf'
 
 const Header = ({info}) => {
 
-  console.log(info)
-
   const {name, surname, city} = info;
 
   return (
