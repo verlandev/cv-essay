@@ -4,6 +4,8 @@ import CV from '../../components/00. CV/CV'
 import ProfessionalLife from '../../components/04. ProfessionalLife/ProfessionalLife'
 
 
+
+
 const {experience} = CV
 
 

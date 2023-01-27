@@ -1,0 +1,87 @@
+.education{
+    background-color: #201e37;
+    color:aliceblue;
+
+    &__title{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5em;
+        
+    }
+
+    &__p{
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    &__h2{
+        color:#6ea0cf;
+        padding-top: 1em;
+        font-size: 2.1em;
+        text-align: center;
+        padding-bottom: 5em;
+        
+    }
+}
+
+.studies{
+   
+
+
+    &__container{
+        width: 60%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    &__elements{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5em;
+        margin-bottom: 5em;
+        
+    }
+
+    &__elements:nth-child(even){
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+
+    &__img{
+        width: 10em;
+        
+        
+    }
+    
+    &__content{
+        width: 60%;
+        background-color: #2a2a66;
+        padding: 2em;
+        border-radius: 2em;
+
+    }
+
+    &__h2{
+        color:#6ea0cf;
+        padding-bottom: 0.4em;
+    }
+
+    &__h4{
+        padding-bottom: 0.4em;
+    }
+
+    &__h3{
+        padding-bottom: 1.2em;
+    }
+
+    &__p{
+
+    }
+    
+    
+}

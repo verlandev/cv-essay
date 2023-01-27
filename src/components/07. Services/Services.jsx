@@ -1,6 +1,6 @@
 import React from 'react'
 import './Services.scss'
-import image from '../../assets/cheque.png'
+import image from '../../assets/check.png'
 
 const Services = ({services}) => {
 
@@ -11,24 +11,25 @@ const Services = ({services}) => {
           <h2 className='services__h2'>Todo mi arsenal</h2>
         </div>
 
-            
-        {services.map((service, index) => 
+        <div className='servicesContainers'>
+            {services.map((service, index) => 
 
-
-            <div className='services__container'>         
-                <h3 className='services__h3' key={index}>{service.name}</h3>
-                <ul className='services__ul'>
-                    <li className='services__li'>
-                        <span><img className='services__img' src={image} alt='services'/></span>
-                        <p className='services__p' key={index}>{service.info}</p>
-
-                    </li>
-                </ul>
+          <div className='serviceContainer'>         
+            <h3 className='serviceContainer__h3' key={index}>{service.name}</h3>
+            <ul className='serviceContainer__ul'>
+            {service.info.map((info, index) => {
+                return ( 
+                <li className='serviceContainer__li'>
+                    <span><img className='serviceContainer__img' src={image} alt='serviceContainer'/></span>
+                    <p className='serviceContainer__p' key={index}>{info}</p>
+                </li>
+                )} 
+              )}
+            </ul>
             </div>
-          
-
-            )}
-
+        )}
+      </div>
+            
 
 
     </section>

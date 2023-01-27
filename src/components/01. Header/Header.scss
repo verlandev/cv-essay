@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 5em;
+  min-height: 100vh;
 }
 
 .presentation {
@@ -47,6 +48,7 @@
     width: 25em;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 5em;
     font-weight: 500;

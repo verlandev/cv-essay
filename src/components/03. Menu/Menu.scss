@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2em;
 }
 
@@ -18,6 +19,18 @@
     align-items: center;
     border-radius: 2em;
     padding: 2em;
+
+    &__icon{
+        margin-bottom: 2em;
+        width: 5em;
+        filter: invert(80%);
+
+        &--profession{
+            margin-bottom: 2em;
+            width: 4em;
+            filter: invert(80%);
+        }
+    }
 
     &__h3{
         color: #6ea0cf;
@@ -40,14 +53,14 @@
         background-color: #4cb4f9;
         color:#2a2a66;
         font-size: 1em;
-        transition: 0.3s;
+        transition: 0.5s;
         font-weight: 500;
         font-family: 'Montserrat';
     }
 
     &__button:hover{
         background-color: aliceblue;
-        transition: 0.3s;
+        transition: 0.5s;
         color:#2a2a66;
     }
 

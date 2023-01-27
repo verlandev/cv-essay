@@ -28,6 +28,7 @@ const CV = {
   education: [
 
     {
+        logo:'https://media.licdn.com/dms/image/C4D0BAQGoLdnPUaeIPg/company-logo_200_200/0/1599238417058?e=1683158400&v=beta&t=ZzofZps5XQ4sowQY_kwNGAP1BgR7u1OcLDej5LzShLI',
         name: "Full Stack Developer",
         where: "Upgrade Hub",
         date: "2023",
@@ -35,6 +36,7 @@ const CV = {
     },
 
     {
+        logo: 'https://media.licdn.com/dms/image/C4E0BAQEyXt12M5LQlg/company-logo_200_200/0/1591258309561?e=1683158400&v=beta&t=L35nLxfubUGbnvzFXpGBB2jL5AVaHyq1lvYoWFYMxqc',
         name: "Soy Copywriter",
         where: "Big Bang Conversion",
         date: "2019",
@@ -42,6 +44,7 @@ const CV = {
     },
 
     {
+        logo:'https://media.licdn.com/dms/image/C4D0BAQErwQ-9Dh1vFA/company-logo_200_200/0/1519855959123?e=1683158400&v=beta&t=NSwcXV_3Y9jhher8kpzCN2vjj8QNR_RX1kKTKI6I9Ag',
         name: "Máster en Comunicación Corporativa e Institucional",
         where: "Universidad Carlos III de Madrid",
         date: "2018",
@@ -49,6 +52,7 @@ const CV = {
     },
 
     {
+        logo: 'https://media.licdn.com/dms/image/C560BAQFiJHUtgGISZA/company-logo_200_200/0/1519856536333?e=1683158400&v=beta&t=x-3ZQB3Kyn1O-2hXhVoa4dBw_GaIW-Ta818i5aOCsgo',
         name: "Grado en Ciencias Políticas y de la Administración",
         where:"Universidad Complutense de Madrid",
         date: "2016",
@@ -56,6 +60,7 @@ const CV = {
     },
 
     {
+        logo: 'https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/301972602_505196758275551_4127470334043684597_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NUyMubqN5x4AX_yX39W&_nc_ht=scontent-mad1-1.xx&oh=00_AfBX6d9KIQW17_8VjxcOAWQedb6BgxWPz9maJvDgkWINPw&oe=63D94939',
         name: "Diploma Selectividad Francesa",
         where:"Liceo Francés de Madrid",
         date: "2011",
@@ -104,7 +109,7 @@ const CV = {
 
     {
       name:'Copywriting',
-      info: ['Landing Pages','Secuencias de emails', 'Copy para adds', 'Copy Web']
+      info: ['Landing Pages','Secuencias de emails', 'Copy para ads', 'Copy Web']
     }
 
   ],
@@ -115,7 +120,7 @@ const CV = {
       name: "Sarai Fénix",
       position: "Copywriter",
       def:"Antigua alumna y compi de mesa",
-      text: "A lo largo de mi vida laboral no he conocido persona más capacitada que Beatriz. Y lo digo con conocimiento de causa. Ella ha sido mi tutora, mi mentora, mi superior y el apoyo más grande que he tenido en esta aventura que es el mundo del copywriting. Tiene un perfil completo hasta decir basta. Es rigurosa en su trabajo, eficaz, eficiente y comprometida. No importa la cantidad y calidad que necesite el proyecto, ella siempre llega a tiempo y supera las expectativas. Si hay alguien a quien aspiro a parecerme como copywriter, sin duda, es a ella."    
+      text: '"A lo largo de mi vida laboral no he conocido persona más capacitada que Beatriz. Y lo digo con conocimiento de causa. Ella ha sido mi tutora, mi mentora, mi superior y el apoyo más grande que he tenido en esta aventura que es el mundo del copywriting. Tiene un perfil completo hasta decir basta. Es rigurosa en su trabajo, eficaz, eficiente y comprometida. No importa la cantidad y calidad que necesite el proyecto, ella siempre llega a tiempo y supera las expectativas. Si hay alguien a quien aspiro a parecerme como copywriter, sin duda, es a ella."'    
     },
 
     {
@@ -123,7 +128,7 @@ const CV = {
       name: "Ángela Puga García",
       position: "Account Manager",
       def:"Compañera en las venturas y desventuras del máster",
-      text: "Si ya de por sí fue un auténtico placer trabajar mano a mano con Beatriz en el ámbito académico, ver cómo ha crecido profesionalmente es todo un orgullo. Trabajadora de 10, incansable y siempre con el objetivo puesto en la calidad. Difícilmente alguien se puede arrepentir de compartir ámbito laboral con ella o de contratar sus servicios."
+      text: '"Si ya de por sí fue un auténtico placer trabajar mano a mano con Beatriz en el ámbito académico, ver cómo ha crecido profesionalmente es todo un orgullo. Trabajadora de 10, incansable y siempre con el objetivo puesto en la calidad. Difícilmente alguien se puede arrepentir de compartir ámbito laboral con ella o de contratar sus servicios."'
     },
 
     {
@@ -131,7 +136,7 @@ const CV = {
       name: "Clara Martínez Larrucea",
       position: "Marketing Digital & Project Manager",
       def:"Hermana mayor, también conocida como Pepito Grillo",
-      text: "No sé cómo lo consigue, pero ella sola se mete en más de un jardín. Tiene el don para sacar cualquier cosa que se proponga y aunque al principio parece sufrir porque se cae una y otra vez, le acaba pillando el truco a todo. Y yo que soy la hermana mayor, te puedo decir que le lleva pasando desde que es un mico. Y ojo, no es la típica de 'quien mucho abarca, poco aprieta'. De verdad, mira su trabajo y verás que, en realidad, sabe mucho de todo y encima, se le da bien."
+      text: '"No sé cómo lo consigue, pero ella sola se mete en más de un jardín. Tiene el don para sacar cualquier cosa que se proponga y aunque al principio parece sufrir porque se cae una y otra vez, le acaba pillando el truco a todo. Y yo que soy la hermana mayor, te puedo decir que le lleva pasando desde que es un mico. Y ojo, no es la típica de "quien mucho abarca, poco aprieta". De verdad, mira su trabajo y verás que, en realidad, sabe mucho de todo y encima, se le da bien."'
     },
 
 
