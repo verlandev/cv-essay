@@ -4,7 +4,6 @@ import './ProfessionalLife.scss'
 const ProfessionalLife = (experience) => {
     
     const experienceInfo = experience.experience
-    console.log(experienceInfo)
 
   return (
     <section className='experience'>

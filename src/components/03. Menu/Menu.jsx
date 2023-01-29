@@ -6,8 +6,9 @@ import icon2 from '../../assets/academy.png'
 
 
 const Menu = () => {
+
   return (
-    <section className='menu'>
+    <section className='menu' id='about'>
                
         <div className='showExperience'>
         <img src={icon1} alt='profession' className='showExperience__icon--profession'></img>
@@ -23,7 +24,8 @@ const Menu = () => {
           <Link to={'/education'} className='showEducation__Link'>Mira, mira...</Link>
 
         </div>
-    
+
+      
     </section>
   )
 }

@@ -6,7 +6,7 @@ const Skills = ({skills, languages}) => {
 
     
   return (
-    <section className='habilities'>
+    <section className='habilities' id='skills'>
         <div className='habilities__title'>
           <p className='habilities__p'>Principales habilidades</p>       
           <h2 className='habilities__h2'>Mis "armas" del día a día</h2>

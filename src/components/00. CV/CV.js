@@ -52,7 +52,7 @@ const CV = {
     },
 
     {
-        logo: 'https://media.licdn.com/dms/image/C560BAQFiJHUtgGISZA/company-logo_200_200/0/1519856536333?e=1683158400&v=beta&t=x-3ZQB3Kyn1O-2hXhVoa4dBw_GaIW-Ta818i5aOCsgo',
+        logo: 'https://www.kaiciid.org/sites/default/files/logoucm_big1.jpg',
         name: "Grado en Ciencias Políticas y de la Administración",
         where:"Universidad Complutense de Madrid",
         date: "2016",

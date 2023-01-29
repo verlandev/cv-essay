@@ -1,0 +1,41 @@
+.nav{
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    border-radius: 2em;
+
+    
+
+}
+
+nav a{
+    background: transparent;
+    padding:1em;
+    border-radius: 5em;
+    display: flex;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+
+nav a:hover{
+    background: rgba(43, 140, 170, 0.9);
+    transition: 0.5s;
+}
+
+nav a.active{
+    background: rgba(0,0,0, 0.8);
+    
+}

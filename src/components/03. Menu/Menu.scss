@@ -33,7 +33,7 @@
     }
 
     &__h3{
-        color: #6ea0cf;
+        color: #49aeed;
         text-align: center;
         font-size: 1.4em;
     }
@@ -48,9 +48,9 @@
     }
 
     &__button{
-        border: solid 1px #4cb4f9;
+        border: solid 1px #49aeed;
         border-radius: 1em;
-        background-color: #4cb4f9;
+        background-color: #49aeed;
         color:#2a2a66;
         font-size: 1em;
         transition: 0.5s;
@@ -62,6 +62,7 @@
         background-color: aliceblue;
         transition: 0.5s;
         color:#2a2a66;
+        border: 1px solid #2a2a66
     }
 
    

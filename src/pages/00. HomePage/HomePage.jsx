@@ -7,12 +7,13 @@ import Skills from '../../components/06. Skills/Skills';
 import Services from '../../components/07. Services/Services';
 import Testimonials from '../../components/08. Testimonials/Testimonials';
 import Contact from '../../components/09. Contact/Contact';
+import Nav from '../../components/10. Nav/Nav';
 
-const {info} = CV
-const {testimonials} = CV
-const {skills} = CV
-const {languages} = CV
-const {services} = CV
+const { info } = CV
+const { testimonials } = CV
+const { skills } = CV
+const { languages } = CV
+const { services } = CV
 
 
 const Home = () => {
@@ -26,7 +27,8 @@ const Home = () => {
           />
       <Services services = {services}/>
       <Testimonials testimonials = {testimonials}/>
-      <Contact />
+      <Contact info = {info}/>
+      <Nav />
     </div>
   )
 }

@@ -1,0 +1,79 @@
+.contact {
+  background-color: #201e37;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 10em;
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5em;
+  }
+
+  &__p {
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  &__h2 {
+    color: #49aeed;
+    padding-top: 1em;
+    font-size: 2.1em;
+  }
+}
+
+.containers{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.container{
+
+    background-color: #2a2a66;
+    padding: 2em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30em;
+    border: solid 1px #2a2a66;
+    transition: 0.5s;
+
+    &__img{
+        width: 3em;
+        filter: invert(90%);
+        padding-bottom: 1em;
+    }
+
+    &__h3{
+        padding-bottom: 2em;
+    }
+
+    &__a{
+        padding-bottom: 2em;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 600;
+        color: #49aeed;
+
+    }
+
+}
+
+.container:hover{
+    background: transparent;
+    border: solid 1px #49aeed;
+    transition: 0.5s;
+}

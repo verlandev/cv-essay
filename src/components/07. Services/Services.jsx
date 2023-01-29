@@ -5,7 +5,7 @@ import image from '../../assets/check.png'
 const Services = ({services}) => {
 
   return (
-    <section className='services'>
+    <section className='services' id='services'>
        <div className='services__title'>
           <p className='services__p'>Lo que soy capaz de hacer</p>       
           <h2 className='services__h2'>Todo mi arsenal</h2>
@@ -15,7 +15,7 @@ const Services = ({services}) => {
             {services.map((service, index) => 
 
           <div className='serviceContainer'>         
-            <h3 className='serviceContainer__h3' key={index}>{service.name}</h3>
+            <h3 className='serviceContainer__h3'>{service.name}</h3>
             <ul className='serviceContainer__ul'>
             {service.info.map((info, index) => {
                 return ( 
