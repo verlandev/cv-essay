@@ -14,7 +14,7 @@ const Testimonials = (testimonials) => {
     <section className='testimonials' id='testimonials'>
         <div className='testimonials__title'>
           <h2 className='testimonials__h2'>¿Qué dicen de mí?</h2>
-          <p className='testimonials__p'>Aquí una muestra de lo que piensan los que mejor me conocen: <br></br>compañer@s de trabajo, amig@s, familiares. ¿Quién mejor para contarte lo que doy de sí?</p>       
+          <p className='testimonials__p'>Pero solo las personas que mejor me conocen</p>       
         </div>
 
       {testimonialsInfo.map((testimonial, index) => 
@@ -28,6 +28,9 @@ const Testimonials = (testimonials) => {
           <p className='testimonial__p--def'>{testimonial.def}</p>
           <p className='testimonial__p'>{testimonial.text}</p>
         </div>
+      </div>
+
+      )}
         <div className='rows'>
           <button className='rowLeft'>
            
@@ -35,9 +38,6 @@ const Testimonials = (testimonials) => {
           <button className='rowRight'>
           </button>
         </div>
-      </div>
-
-      )}
       
     </section>
   )

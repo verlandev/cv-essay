@@ -5,11 +5,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    min-height: 100vh;
 
 
     &__title{
-
-        margin-top: 5em;
         margin-bottom: 5em;
 
     }
@@ -82,10 +81,6 @@
     }
     &__img{
         width: 2em;
-    }
-    &__p{
-        
-    }
-    
+    }    
 
 }

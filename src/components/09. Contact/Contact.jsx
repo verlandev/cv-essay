@@ -6,7 +6,6 @@ import icon3 from '../../assets/github.png'
 
 
 const Contact = ({info}) => {
-  console.log(info)
 
   const {email, linkedin, gitHub} = info;
 

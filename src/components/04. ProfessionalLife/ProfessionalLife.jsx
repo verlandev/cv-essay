@@ -1,35 +1,33 @@
-import React from 'react'
-import './ProfessionalLife.scss'
+import React from "react";
+import "./ProfessionalLife.scss";
 
 const ProfessionalLife = (experience) => {
-    
-    const experienceInfo = experience.experience
+  const experienceInfo = experience.experience;
 
   return (
-    <section className='experience'>
-        <div className='experience__title'>
-            <p className='experience__p'>¿Qué he hecho?</p>
-            <h2 className='experience__h2'>Toda mi experiencia</h2>
-        </div>
+    <section className="experience">
+      <div className="experience__title">
+        <p className="experience__p">¿Qué he hecho?</p>
+        <h2 className="experience__h2">Toda mi experiencia</h2>
+      </div>
 
-
-        <div className='timeline'>
-            <div className='timeline__items'>
-    {experienceInfo.map((eachExperience, index) => 
-                <div className='timeline__eachItem' key = {index}>
-                    <span className='timeline__dot'></span>
-                    <p className='timeline__date'>{eachExperience.date}</p>
-                    <div className='timeline__content'>
-                        <h3 className='timeline__h3'>{eachExperience.name}</h3>
-                        <h4 className='timeline__h4'>{eachExperience.where}</h4>
-                        <p className='timeline__p'>{eachExperience.description}</p>
-                    </div>
-                </div>
-    )}
+      <div className="timeline">
+        <div className="timeline__items">
+          {experienceInfo.map((eachExperience, index) => (
+            <div className="timeline__eachItem" key={experience.description + experience.name}>
+              <span className="timeline__dot" />
+              <p className="timeline__date">{eachExperience.date}</p>
+              <div className="timeline__content">
+                <h3 className="timeline__h3">{eachExperience.name}</h3>
+                <h4 className="timeline__h4">{eachExperience.where}</h4>
+                <p className="timeline__p">{eachExperience.description}</p>
+              </div>
             </div>
+          ))}
         </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProfessionalLife
+export default ProfessionalLife;

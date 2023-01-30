@@ -8,19 +8,19 @@ const CV = {
     birthDate: "02-09-1993",
     image: "https://drive.google.com/file/d/1JT9NYMtJwekQd6p4kmQCv-okXOUzHEAp/view?usp=sharing",
     gitHub: "https://github.com/Bemart93",
-
     aboutMe: [
       {
         presentation:
-          "Soy una persona a la que siempre se le ha gustado la comunicación. Domino tres idiomas, escribo sobre cual￾quier temática y después de 3 años como copywriter, también diseño las estrate￾gias de venta. Si además le añadimos todo lo que sé sobre Desarrollo Web como Full Stack, podrás adivinar lo cómoda que me encuentro en el mundo digital.",
+          `Soy una persona a la que siempre se le ha gustado la comunicación.
+           Domino tres idiomas, escribo sobre cualquier temática y después de 3 años como copywriter,
+           también diseño las estrategias de venta. 
+           Si además le añadimos todo lo que sé sobre Desarrollo Web como Full Stack, 
+           podrás adivinar lo cómoda que me encuentro en el mundo digital.`,
+          // `"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`
       },
 
       {
-        position: "Copywriter",
-      },
-
-      {
-        position: "Full Stack Developer",
+        position: "Full Stack Developer Junior",
       },
     ],
   },
@@ -141,6 +141,34 @@ const CV = {
 
 
   ],
+
+  faqs: [
+    {
+      question:'"De marketing a programación... ¿Y eso?"',
+      answer:'Se me ocurre más de un motivo. Pero en mi opinión no son polos opuestos, sino dos caras de la misma moneda. Llevo ya un tiempo dedicándome a escribir en el mundo online como para saber que se puede tocar el cielo si dominas no solo la escritura, sino todo el ecosistema digital. De hecho, no es cambiar una cosa por otra, sino combinar ambas. Mi propósito de aquí a unos años es construir o incluso impulsar proyectos digitales que de verdad merezcan la pena y sean utiles para los usuarios.',
+    },
+
+    {
+      question:'"¿Qué es lo que más te gusta de la programación?"',
+      answer:'Yo diría que la maquetación. Me gusta ordenar los elementos y crear algo visual. De hecho, empecé el Bootcamp de Full Stack con algunos conocimientos en HTML5 y CSS3 y durante el programa pude ir mejorando. Por eso creo que aun siendo junior, no se me da mal replicar un modelo. Es más, tengo muchas ganas de seguir aprendiendo para sacar más y más proyectos a nivel visual',
+    },
+
+    {
+      question:'"Así que... ¿no eres muy de Backend?"',
+      answer:'Lo cierto es que pensé que el Backend me gustaría menos, pero en realidad es el mejor sitio para volcar toda la lógica organizativa. Y creo que entraña un importante reto en la configuración y manejo de datos. Si mi objetivo es convertirme en Full Stack Developper, tengo toda la intención de seguir profundizando por este camino.',
+    },
+
+    {
+      question:'"¿Qué es lo mejor que puedes aportar a nivel laboral?"',
+      answer:'🤔 A nivel de trabajo, me considero responsable y aplicada. Intento aprender de los errores y no me importa cometerlos y asumirlos si eso me lleva hacia adelante. Me gusta trabajar de una vez y hacerlo bien. Trabajar a medias implica dedicar más tiempo a las tareas y, la verdad, me gusta la programación, pero también disfrutar de otras cosas que enriquecen mi día a día y que repercuten también en mi humor, ganas y motivación. Y a nivel personal, me gusta crear un buen ambiente laboral con los compañeros, aportar ideas, compartir conocimientos y sacar proyectos en conjunto.',
+    },
+
+    {
+      question:'"¿Qué buscas en tu próximo trabajo?"',
+      answer:'Lo tengo claro. Después de años trabajando, lo que más me importa es el buen ambiente laboral: compañerismo, liderazgo, empatía, responsabilidad, creatividad y todo lo que pueda sumar en el ambiente de trabajo. No pido más.',
+    }
+  ],
+
 
   languages: [
     {
