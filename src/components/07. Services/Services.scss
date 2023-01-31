@@ -5,11 +5,14 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    min-height: 100vh;
+    width: 100%;
+    padding-top: 5em;
 
 
     &__title{
-        margin-bottom: 5em;
+        margin-bottom: 2em;
+        width: 90%;
+        margin: auto;
 
     }
     &__p, &__h2{
@@ -26,19 +29,20 @@
 }
 
 .servicesContainers{
-
+    padding-top: 5em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 3em;
+    width: 100%;
 
 }
 
 .serviceContainer{
 
     background-color: #2a2a66;
-    width: 30em;
+    width: 30%;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em ;
     display: flex;
@@ -56,7 +60,6 @@
         padding-bottom: 2em;
         border-bottom-left-radius: 2em;
         border-bottom-right-radius: 2em;
-        padding-top: 2em;
         
     }
     &__ul{
@@ -65,7 +68,7 @@
         row-gap: 1em;
         justify-content: space-between;
         grid-column-start: auto;
-        width: 20em;     
+        width: 60%;     
         margin:auto;
         padding: 2em;
     }
@@ -77,10 +80,30 @@
         align-items: flex-start;
         gap: 2em;
         font-weight: 600;
-        
     }
+
     &__img{
         width: 2em;
     }    
 
+}
+
+@media screen and (max-width: 1200px) {
+
+    .servicesContainers{
+        flex-direction: column;
+        width: 70%;
+        margin:auto;
+        padding-top: 5em;
+    }
+
+    .serviceContainer{
+        width: 100%;
+
+        &__ul{
+            padding-bottom: 2em;
+            padding-bottom: 2em;
+            width: 100%;
+        }
+    }
 }

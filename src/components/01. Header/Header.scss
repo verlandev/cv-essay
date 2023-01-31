@@ -90,3 +90,16 @@
     border: solid 1px #fffffe;
   }
 }
+
+@media screen and (max-width: 880px){
+
+    .presentation{
+
+      &__buttons{
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+      }
+    }
+
+}

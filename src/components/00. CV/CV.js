@@ -145,12 +145,12 @@ const CV = {
   faqs: [
     {
       question:'"De marketing a programación... ¿Y eso?"',
-      answer:'Se me ocurre más de un motivo. Pero en mi opinión no son polos opuestos, sino dos caras de la misma moneda. Llevo ya un tiempo dedicándome a escribir en el mundo online como para saber que se puede tocar el cielo si dominas no solo la escritura, sino todo el ecosistema digital. De hecho, no es cambiar una cosa por otra, sino combinar ambas. Mi propósito de aquí a unos años es construir o incluso impulsar proyectos digitales que de verdad merezcan la pena y sean utiles para los usuarios.',
+      answer:'Lo primero, te diré que no es una idea que se me haya ocurrido de la noche a la mañana. De hecho, fueron dos mundos que conocí al mismo tiempo, cuando me lancé a crear una página web de 0 y nativa. Me di cuenta que no solo importaba cómo montar la página, sino también qué tendría que decir en ella. Dio la casualidad que entré de lleno en el mundo del copywriting y crecí muy rápido. Y después de mucho trabajo, aprendizaje y de haber llegado lejos, decidí que necesitaba un nuevo reto. Y segundo, creo el copy y la programación no son polos opuestos, sino dos caras de la misma moneda. Llevo ya un tiempo dedicándome a escribir en el mundo online como para saber que se puede tocar el cielo si dominas no solo la escritura, sino todo el ecosistema digital. De hecho, no es cambiar una cosa por otra, sino combinar ambas. Mi propósito de aquí a unos años es construir o incluso impulsar proyectos digitales que de verdad merezcan la pena y sean utiles para los usuarios.',
     },
 
     {
       question:'"¿Qué es lo que más te gusta de la programación?"',
-      answer:'Yo diría que la maquetación. Me gusta ordenar los elementos y crear algo visual. De hecho, empecé el Bootcamp de Full Stack con algunos conocimientos en HTML5 y CSS3 y durante el programa pude ir mejorando. Por eso creo que aun siendo junior, no se me da mal replicar un modelo. Es más, tengo muchas ganas de seguir aprendiendo para sacar más y más proyectos a nivel visual',
+      answer:'Yo diría que la maquetación. Me gusta ordenar los elementos y crear algo visual. De hecho, empecé el Bootcamp de Full Stack con algunos conocimientos en HTML5 y CSS3 y durante el programa pude ir mejorando. Por eso creo que aun siendo junior, no se me da mal replicar un modelo. Es más, tengo muchas ganas de seguir aprendiendo para sacar más y más proyectos a nivel visual.',
     },
 
     {
@@ -173,12 +173,12 @@ const CV = {
   languages: [
     {
         language: "Francés",
-        level: "nivel Nativo"
+        level: "nativo"
     },
 
     {
         language: "Español",
-        level: "nivel Nativo"
+        level: "nativo"
     },
 
     {

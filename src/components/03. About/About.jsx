@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './About.scss'
 import icon1 from '../../assets/profession.png'
 import icon2 from '../../assets/academy.png'
+import arrow from '../../assets/deco.arrow.png'
 
 
 const About = (info) => {
@@ -14,6 +15,7 @@ const About = (info) => {
   <section className='about' id='about'>
      
         <div className='aboutPresentation'>
+            <img className='aboutPresentation__img' src={arrow} alt='arrow' />
             <h2 className='aboutPresentation__h2'>Sobre mí</h2>
                 {aboutMeInfo.map((aboutMe, index) => 
             <p className='aboutPresentation__p'>{aboutMe.presentation}</p>
@@ -23,8 +25,8 @@ const About = (info) => {
         <div className='aboutContainers'>       
           <div className='showExperience'>
             <img src={icon1} alt='profession' className='showExperience__icon--profession'></img>
-            <h3 className='showExperience__h3'>Mi experiencia profesional</h3>
-            <p className='showExperience__p'>Por si te interesa conocer las empresas, cargos y funciones que he ocupado. Podrás ver que son ya bastantes años nadando en el mundo digital. </p>
+            <h3 className='showExperience__h3'>Mi experiencia</h3>
+            <p className='showExperience__p'>Conoce las empresas, cargos y funciones que he ocupado. Como ves son ya algunos años nadando en el mundo digital. </p>
             <Link to={'/experience'} className='showExperience__Link'>Echa un vistazo a la pecera</Link>
           </div>
           

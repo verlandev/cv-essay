@@ -1,5 +1,5 @@
 .habilities{
-    padding-top: 5em;
+    padding-top: 8em;
     width: 100%;
     background-color: #201e37;
     padding-bottom: 5em;
@@ -8,6 +8,8 @@
         display: flex;
         flex-direction: column;
         color: #49aeed;
+        width: 90%;
+        margin: auto;
     }
 
     &__p{
@@ -54,7 +56,7 @@
     &__ul{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        row-gap: 1em;
+        row-gap: 0.5em;
         justify-content: space-between;
     }
 
@@ -77,10 +79,51 @@
         color: aliceblue;
         font-size: 0.9em;
         font-weight: 600;
-        
+                
         &--level{
             color: aliceblue;
+
         }
     }
 
+}
+
+@media screen and (max-width:1400px) {
+
+    .personalSkills, .languages{
+
+        &__ul{
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+
+    .habilitiesContainer{
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .personalSkills, .languages{
+        width: 90%;
+        margin:auto
+
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    
+    .habilitiesContainer{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .personalSkills, .languages{
+        width: auto;
+    }
 }

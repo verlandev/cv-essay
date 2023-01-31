@@ -1,5 +1,5 @@
 .about{
-    padding-top: 1em;
+    padding-top: 7em;
     width: 100%;
     background-color: #201e37;
     display: flex;
@@ -7,7 +7,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 10em;
-    min-height: 100vh;
 }
 
 .aboutPresentation{
@@ -19,10 +18,22 @@
     line-height: 2em;
     width: 30%;
     gap: 2em;
+    position: relative;
+
+        &__img{
+            width: 30em;
+            transform: rotate(10deg);
+            position: absolute;
+            filter: invert(50%);
+            top: -300px;
+            left: -350px;
+            
+        }
 
         &__h2{
             color: #49aeed;
             text-align: left;
+            font-size: 2em;
         }
 
         &__p{
@@ -36,9 +47,9 @@
 .aboutContainers{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
     width: 30%;
     flex-wrap: wrap;
 }
@@ -79,7 +90,7 @@
         color: aliceblue;
         line-height: 2em;
         text-align: center;
-        padding: 2em;
+        padding: 1.5em;
 
        
     }
@@ -87,7 +98,8 @@
     &__button{
         border: solid 1px #49aeed;
         border-radius: 1em;
-        background-color: #49aeed;
+        // background-color: #49aeed;
+        background-color: #2a2a66;
         color:#2a2a66;
         font-size: 1em;
         transition: 0.5s;
@@ -111,7 +123,7 @@
         border: solid 1px #4cb4f9;
         border-radius: 1em;
         background-color: #4cb4f9;
-        color:#2a2a66;
+        color:aliceblue;
         font-size: 1em;
         transition: 0.3s;
         font-weight: 500;
@@ -137,3 +149,83 @@
 
 // border: solid 1px #2a2a66;
 // background-color: #4cb4f9;
+
+@media screen and (max-width:1300px) {
+
+    .about{
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        padding-top: 9em;
+    }
+    
+    .aboutPresentation{
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        &__p{
+            text-align: center; 
+        }
+    }
+    
+    .aboutContainers{
+        flex-direction: row;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .showExperience, .showEducation{
+        width: 45%;
+        
+        &__icon{
+            display: block;
+
+            &--profession{
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    .aboutPresentation{
+
+        &__p{
+            font-size: 1em;
+        }
+    }
+
+    .aboutContainers{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .showExperience, .showEducation{
+
+        width: 80%;
+
+      &__h3{
+        color: #49aeed;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+      &__p{
+        color: aliceblue;
+        line-height: 2em;
+        text-align: center;
+        padding: 2em;
+        font-size: 1em;
+       
+    }
+
+    &__Link{
+        font-size: 1em;
+    }
+
+    }
+    
+}
