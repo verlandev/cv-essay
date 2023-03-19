@@ -1,9 +1,10 @@
 import React from 'react'
 import './Services.scss'
 import image from '../../assets/check.png'
+import { computeHeadingLevel } from '@testing-library/react'
 
 const Services = ({services}) => {
-
+  
   return (
     <section className='services' id='services'>
        <div className='services__title'>
@@ -14,10 +15,12 @@ const Services = ({services}) => {
         <div className='servicesContainers'>
             {services.map((service, index) => 
 
+
           <div className='serviceContainer'>         
             <h3 className='serviceContainer__h3'>{service.name}</h3>
             <ul className='serviceContainer__ul'>
             {service.info.map((info, index) => {
+              console.log(service.info)
                 return ( 
                 <li className='serviceContainer__li'>
                     <span><img className='serviceContainer__img' src={image} alt='serviceContainer'/></span>

@@ -1,7 +1,7 @@
 const CV = {
   info: {
     name: "Beatriz",
-    surname: "Verlán",
+    surname: "Martínez Larrucea",
     city: "Madrid",
     email: "contacto@beatrizverlan.com",
     linkedin: "https://www.linkedin.com/in/beatriz-verlan/",
@@ -103,7 +103,17 @@ const CV = {
   services: [
     {
       name: 'Desarrollo Web',
-      info: ['HTML', 'CSS', 'Javascript', 'Node JS', 'React', 'MongoDB']
+      info: ['HTML', 'CSS', 'Javascript', 'Node JS', 'React', 'MongoDB'],
+      logos: [
+        'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
+        'https://cdn-icons-png.flaticon.com/512/732/732190.png',
+        'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
+        'https://ugeek.github.io/blog/images-blog/node.png',
+        'https://cdn-icons-png.flaticon.com/512/1126/1126012.png',
+        'https://w7.pngwing.com/pngs/63/19/png-transparent-mongodb-database-nosql-postgresql-mongo-text-logo-business-thumbnail.png'
+
+
+      ]
 
     },
 
@@ -113,6 +123,46 @@ const CV = {
     }
 
   ],
+
+  // services:[
+  //   {
+  //     name:'Desarrollo Web',
+  //     info: [
+  //       {
+  //         language: 'HTML',
+  //         logo: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png'
+  //       },
+  //       {
+  //         language:'CSS',
+  //         logo: 'https://cdn-icons-png.flaticon.com/512/732/732190.png'
+  //       },
+  //       {
+  //         language:'Javascript',
+  //         logo:'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
+  //       },
+  //       {
+  //         language: 'Node JS',
+  //         logo:'https://ugeek.github.io/blog/images-blog/node.png'
+  //       },
+  //       {
+  //         language:'React',
+  //         logo:'https://cdn-icons-png.flaticon.com/512/1126/1126012.png',
+  //       },
+  //       {
+  //         language:'Angular',
+  //         logo:'https://w7.pngwing.com/pngs/752/651/png-transparent-angularjs-vue-js-others-angle-rectangle-triangle-thumbnail.png',
+  //       },
+  //       {
+  //         language:'MongoDB',
+  //         logo:'https://w7.pngwing.com/pngs/63/19/png-transparent-mongodb-database-nosql-postgresql-mongo-text-logo-business-thumbnail.png',
+  //       }
+  //     ]
+  //   },
+  //   {
+  //         name:'Copywriting',
+  //         info: ['Landing Pages','Secuencias de emails', 'Copy para ads', 'Copy Web']
+  //       }
+  // ],
   
   testimonials: [
     {

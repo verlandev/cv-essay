@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './About.scss'
 import icon1 from '../../assets/profession.png'
 import icon2 from '../../assets/academy.png'
-import arrow from '../../assets/deco.arrow.png'
+import arrow from '../../assets/bombilla.png'
 
 
 const About = (info) => {

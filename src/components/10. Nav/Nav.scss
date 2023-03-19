@@ -10,7 +10,7 @@
     bottom: 2rem;
     display: flex;
     flex-direction: row;
-    gap: 4em;
+    gap: 2em;
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(15px);
@@ -37,4 +37,13 @@ nav a:hover{
 
 nav a.active{
     background: rgba(0,0,0, 0.8);
+}
+
+
+@media screen and (max-width: 800px){
+
+    .nav{
+        width: 100%;
+        gap:0.2em
+    }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss';
 import image from '../../assets/firma.jpg'
-import curriculum from '../../assets/cv-actualizado.pdf'
+import curriculum from '../../assets/CV-Beatriz-Martinez-Larrucea-2023.pdf'
 
 const Header = ({info}) => {
 

@@ -1,4 +1,9 @@
+$currentIndex: 0;
+
+
 .testimonials{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: #201e37;
     padding-top: 9em;
@@ -27,18 +32,51 @@
 
 }
 
+.containerSlider{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 2em;
+    overflow: hidden;
+
+    .rows{
+        width: 300px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+
+        .button{
+            margin: auto;
+            width: 200px;
+            background-color: #4cb4f9;
+            border: #4cb4f9;
+            color: whitesmoke;
+            padding: 1em;
+            border-radius: 10px;     
+            letter-spacing: 2px;      
+
+        }
+    }
+}
+
 .slide{
     display: flex;
     flex-direction: row;
-    flex-flow: nowrap;
-    width: 70%;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 300%;
+    margin: 0 -10%;
+    overflow: hidden;
     margin: auto;
 }
 
 .testimonial{
-    margin: auto;
     margin-top: 5em;
-    width: 90%;
+    width: 80%;
+    height: 500px;
     background-color: #2a2a66;
     display: flex;
     flex-direction: column;
@@ -48,7 +86,12 @@
     gap: 1em;
     color: #fffffe;
     border-radius: 2em;
+    transition: 0.5s;
     
+    &.active{
+      transition: 0.5s;
+      transform: translateX(-10%);
+    }
 
     &__img{
         width: 5em;

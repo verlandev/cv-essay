@@ -103,6 +103,23 @@
         &__ul{
             padding-bottom: 2em;
             padding-bottom: 2em;
+            width: 50%;
+            margin: auto;
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .serviceContainers{
+        width: 100%;
+        
+    }
+    
+    .serviceContainer{
+        width: 100%;
+
+        &__ul{
             width: 100%;
         }
     }

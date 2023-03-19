@@ -31,7 +31,8 @@
 
   &__h2 {
     letter-spacing: 0.1em;
-    color: #6ea0cf
+    color: #6ea0cf;
+    text-align: center;
   }
   
   &__p {
@@ -94,6 +95,10 @@
 @media screen and (max-width: 880px){
 
     .presentation{
+      
+      &__h2{
+        text-align: center;
+      }
 
       &__buttons{
         flex-direction: column;
