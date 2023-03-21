@@ -8,6 +8,7 @@
   align-items: center;
   padding-top: 5em;
   min-height: 100vh;
+  width: 100%;
 }
 
 .presentation {
@@ -18,6 +19,7 @@
   align-items: center;
   padding-bottom: 2em;
   line-height: 2em;
+  width: 90%;
 
   &__h5 {
     letter-spacing: 0.1em;
@@ -40,7 +42,7 @@
   }
 
   &__image {
-    width: 15em;
+    width: 250px;
     border-radius: 20em;
     margin-bottom: 3em;
   }
