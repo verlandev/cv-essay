@@ -1,6 +1,3 @@
-$currentIndex: 0;
-
-
 .testimonials{
     display: flex;
     flex-direction: column;
@@ -123,9 +120,35 @@ $currentIndex: 0;
 
 }
 
-@media screen and (max-width: 880px){
-    .testimonial{
+@media screen and (max-width: 600px){
+    .containerSlider{
         width: 90%;
+        .slide{
+            
+            .testimonial{
+                height: 700px;
+                justify-content: flex-start;
+                text-align: center;
+
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .containerSlider{
+        width: 90%;
+        .slide{
+            
+            .testimonial{
+                min-height: 600px;
+                justify-content: flex-start;
+                text-align: center;
+
+                
+            }
+        }
     }
 }
 

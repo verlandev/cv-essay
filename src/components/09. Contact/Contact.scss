@@ -79,13 +79,23 @@
   transition: 0.5s;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
+    
+    .contact__title{
+      width: 90%;
+      margin: auto;
+
+      &__p{
+        font-size: 1.2em;
+      }
+    }
+
     .containers{
       flex-direction: column;
       width: 100%;
     }
 
     .container{
-      width: 20em;
+      width: 90%;
     }
 }

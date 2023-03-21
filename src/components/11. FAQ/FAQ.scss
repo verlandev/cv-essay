@@ -14,6 +14,7 @@
 
   &__p {
     color: aliceblue;
+    font-size: 1.2em;
   }
 
   &__h2 {
@@ -46,7 +47,7 @@
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: #2a2a66;
-  border-radius: 1em;
+  border-radius: 10px;
   cursor: pointer;
   transition:0.5s;
 
@@ -65,11 +66,6 @@
   }
 }
 
-// .title:hover{
-//     background-color: #201e37;
-//     transition: 0.5s;
-// }
-
 .content {
   max-height: 0;
   transition: 0.5s;
@@ -87,16 +83,30 @@
   color: aliceblue;
   background-color: #201e37;
   border:solid 1px #49aeed;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
+
+  .faqTitle{
+    width: 90%;
+    margin: auto;
+
+    &__p{
+      padding-bottom: 1em;
+    }
+  }
+
   .title{
 
     &__h2{
       font-size: 1em;
     }
+  }
+
+  .accordion{
+    width: 90%;
   }
 }
