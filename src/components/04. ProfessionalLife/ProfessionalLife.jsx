@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ProfessionalLife.scss";
 
 const ProfessionalLife = (experience) => {
@@ -26,6 +27,11 @@ const ProfessionalLife = (experience) => {
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="buttonsNav">
+        <Link to={'/'} className='home__link'> Atrás</Link>
+        <Link to={'/education'} className='education__link'>Conoce mi formación</Link>
       </div>
     </section>
   );

@@ -26,8 +26,7 @@
     }
 }
 
-.studies{
-   
+.studies{   
 
 
     &__container{
@@ -54,7 +53,7 @@
 
     &__img{
         width: 10em;
-        border-radius: 1em;
+        border-radius: 10px;
         
         
     }
@@ -63,7 +62,7 @@
         width: 60%;
         background-color: #2a2a66;
         padding: 2em;
-        border-radius: 2em;
+        border-radius: 10px;
 
     }
 
@@ -85,4 +84,73 @@
     }
     
     
+}
+
+.buttonsNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    
+
+    .home__link,
+    .experience__link{
+        border: solid 1px #49aeed;
+        background-color: #49aeed;
+        width: 300px;
+        text-decoration: none;
+        color: whitesmoke;
+        letter-spacing: 2px;
+        text-align: center;
+        padding: 1em;
+        border-radius: 10px;
+        font-weight: 500;
+        transition: 0.5s;
+        
+        &:hover{
+            background-color: whitesmoke;
+            border: solid 1px whitesmoke;
+            color: #2a2a66;
+            transition: 0.5s;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .education{ 
+
+        .studies{
+            display: flex;
+            flex-direction: column;
+            
+            &__container{
+                width: 100%;
+                gap: 1em;
+            }
+
+            &__elements{
+                flex-direction: column;
+                gap: 1em;
+                text-align: center;
+            }
+    
+            &__content{
+                width: 90%;
+            }
+        }
+
+        
+    }
+        .buttonsNav{
+        flex-direction: column;
+        align-items: center;
+
+        .home__link
+        .education__link{
+           width: 600px;
+        }
+    }
 }

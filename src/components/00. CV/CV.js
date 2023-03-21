@@ -60,7 +60,7 @@ const CV = {
     },
 
     {
-        logo: 'https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/301972602_505196758275551_4127470334043684597_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NUyMubqN5x4AX_yX39W&_nc_ht=scontent-mad1-1.xx&oh=00_AfBX6d9KIQW17_8VjxcOAWQedb6BgxWPz9maJvDgkWINPw&oe=63D94939',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Logo_lycee-francais-de-madrid.png',
         name: "Diploma Selectividad Francesa",
         where:"Liceo Francés de Madrid",
         date: "2011",
