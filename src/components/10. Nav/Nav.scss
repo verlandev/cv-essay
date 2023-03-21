@@ -44,13 +44,13 @@ nav a.active{
 
     .nav{
         width: 90%;
-        gap:0.2em
+        gap:0.8em
     }
 }
 
 @media screen and (max-width: 400px){
     .nav{
-        gap:0.4em;
+        gap:0.8em;
         left: 50%;
     }
 

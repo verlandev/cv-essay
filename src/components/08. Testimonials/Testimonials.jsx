@@ -9,12 +9,10 @@ const Testimonials = (testimonials) => {
 
   const goToPrev = () => {
     setCurrentIndex(currentIndex === 0 ? testimonialsInfo.length - 1 : currentIndex - 1)
-    console.log('funciona')
   }
 
   const goToNext = () => {
     setCurrentIndex(currentIndex === testimonialsInfo.length -1 ? 0 : currentIndex + 1)
-    console.log('funciona')
   }
 
  

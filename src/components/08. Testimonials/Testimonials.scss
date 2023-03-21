@@ -121,14 +121,18 @@
 }
 
 @media screen and (max-width: 400px){
+    
+    .testimonials{
+        padding-top: 3em;
+    }
     .containerSlider{
         width: 90%;
         .slide{
             
             .testimonial{
-                height: 500px;
                 justify-content: flex-start;
                 text-align: center;
+                font-size: 15px;
 
                 
             }
@@ -153,7 +157,7 @@
         .slide{
             
             .testimonial{
-                height: 800px;
+                height: 700px;
                 justify-content: flex-start;
                 text-align: center;
 

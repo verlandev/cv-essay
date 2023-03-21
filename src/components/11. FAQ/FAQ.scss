@@ -112,9 +112,12 @@
 }
 
 @media screen and (max-width: 400px){
+  
+  
   .faqTitle{
     width: 90%;
     margin: auto;
+    padding-top: 2em;
 
     &__p{
       padding-bottom: 1em;

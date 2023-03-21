@@ -81,9 +81,15 @@
 
 @media screen and (max-width: 900px){
     
+    
+    .contact{
+      padding-top: 1em;
+    }
+
     .contact__title{
       width: 90%;
       margin: auto;
+      padding-top: 1em;
 
       &__p{
         font-size: 1.2em;
