@@ -110,3 +110,25 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 400px){
+  .faqTitle{
+    width: 90%;
+    margin: auto;
+
+    &__p{
+      padding-bottom: 1em;
+    }
+  }
+
+  .title{
+
+    &__h2{
+      font-size: 1em;
+    }
+  }
+
+  .accordion{
+    width: 90%;
+  }
+}

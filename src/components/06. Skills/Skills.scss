@@ -126,3 +126,14 @@
         width: auto;
     }
 }
+
+@media screen and (max-width: 400px){
+    .habilitiesContainer{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .personalSkills, .languages{
+        width: 90%;
+    }
+}

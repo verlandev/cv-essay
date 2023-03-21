@@ -120,7 +120,7 @@
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 400px){
     .containerSlider{
         width: 90%;
         .slide{
@@ -129,6 +129,42 @@
                 height: 700px;
                 justify-content: flex-start;
                 text-align: center;
+
+                
+            }
+        }
+        .rows{
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    .testimonials{
+        &__title{
+            width: 90%;
+            margin: auto
+        }
+    }
+
+    .containerSlider{
+        width: 90%;
+        .slide{
+            
+            .testimonial{
+                height: 900px;
+                justify-content: flex-start;
+                text-align: center;
+
+                
+                &__p{
+                    padding: 0.1em;
+                    
+                    &--def{
+                        padding: 0;
+                    }
+                }
 
                 
             }

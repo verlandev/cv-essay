@@ -47,3 +47,14 @@ nav a.active{
         gap:0.2em
     }
 }
+
+@media screen and (max-width: 400px){
+    .nav{
+        gap:0.1em;
+        left: 45%;
+    }
+
+    nav a{
+        padding: 0.5em;
+    }
+}

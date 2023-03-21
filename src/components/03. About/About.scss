@@ -164,7 +164,7 @@
     }
     
     .aboutPresentation{
-        width: 70%;
+        width: 90%;
         flex-direction: column;
         align-items: center;
 
@@ -185,7 +185,7 @@
     
     .aboutContainers{
         flex-direction: row;
-        width: 90%;
+        width: 100%;
         flex-wrap: wrap;
     }
 
@@ -204,6 +204,9 @@
 
 @media screen and (max-width: 880px) {
 
+    .about{
+        padding-top: 2em;
+    }
     .aboutPresentation{
 
         &__p{
@@ -242,3 +245,39 @@
     }
     
 }
+
+@media screen and (max-width: 400px){
+   
+    
+    .aboutContainers{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        
+    }
+
+    .showExperience, .showEducation{
+
+        width: 90%;
+
+      &__h3{
+        color: #49aeed;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+      &__p{
+        color: aliceblue;
+        line-height: 2em;
+        text-align: center;
+        padding: 2em;
+        font-size: 1em;
+       
+    }
+
+    &__Link{
+        font-size: 1em;
+    }
+
+    }
+} 
