@@ -3,6 +3,7 @@ import "./ProfessionalLife.scss";
 
 const ProfessionalLife = (experience) => {
   const experienceInfo = experience.experience;
+  
 
   return (
     <section className="experience">

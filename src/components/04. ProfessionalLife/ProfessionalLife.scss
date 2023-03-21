@@ -111,3 +111,25 @@
     }
 
 }
+
+@media screen and (max-width: 900px) {
+
+    .timeline{
+        &__eachItem:nth-child(odd),
+        &__eachItem:nth-child(even){
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+        &__items::before{
+            left: 9px;
+        }
+
+        &__dot{
+            left: 0;
+        }
+        &__eachItem:nth-child(odd){
+            text-align: left;
+        }
+    
+    }
+}
