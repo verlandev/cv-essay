@@ -2,7 +2,8 @@ import React from "react";
 import "./Skills.scss";
 import image from "../../assets/checklist.png";
 
-const Skills = ({ skills, languages }) => {
+const Skills = ({ skills, languages, services }) => {
+  console.log(services)
   return (
     <section className="habilities" id="skills">
       <div className="habilities__title">
@@ -11,46 +12,73 @@ const Skills = ({ skills, languages }) => {
       </div>
 
       <div className="habilitiesContainer">
-        <div className="personalSkills">
-          <h3 className="personalSkills__h3">Skills</h3>
-          <div className="personalSkills__container">
-            <ul className="personalSkills__ul">
+        <div className="skills">
+          <h3 className="skills__h3">Skills</h3>
+          <div className="skills__container">
+            <ul className="skills__ul">
               {skills.map((skill, index) => (
-                <li className="personalSkills__li" key={index}>
+                <li className="skills__li" key={index}>
                   <span>
                     <img
-                      className="personalSkills__img"
+                      className="skills__img"
                       src={image}
                       alt="skills"
                     />
                   </span>
-                  <p className="personalSkills__p">{skill}</p>
+                  <p className="skills__p">{skill}</p>
                 </li>
               ))}
             </ul>
           </div>
         </div>
 
-        <div className="languages">
-          <h3 className="languages__h3">Idiomas</h3>
-          <div className="languages__container">
-            <ul className="languages__ul">
+        <div className="skills">
+          <h3 className="skills__h3">Idiomas</h3>
+          <div className="skills__container">
+            <ul className="skills__ul">
               {languages.map((language, index) => (
-                <li className="languages__li" key={index}>
+                <li className="skills__li" key={index}>
                   <span>
                     <img
-                      className="languages__img"
+                      className="skills__img"
                       src={image}
-                      alt="languages"
+                      alt="skills"
                     />
                   </span>
-                  <p className="languages__p">{language.language}:</p>
-                  <p className="languages__p--level">{language.level}</p>
+                  <p className="skills__p">{language.language}:</p>
+                  <p className="skills__p--level">{language.level}</p>
                 </li>
               ))}
             </ul>
           </div>
         </div>
+      </div>
+      
+      <div className="professionContainer">
+      {services.map((service, index) => {
+        
+        return(
+        <div className="skills" key={index}>
+          <h3 className="skills__h3">{service.profession}</h3>
+          <div className='skills__container'>
+            <ul className="skills__ul">
+              {service.details.map((detail, index) => (
+                <li className="skills__li" key={index}>
+                  <span>
+                    <img
+                      className="skills__img"
+                      src={detail.logo}
+                      alt='skills'
+                    />
+                  </span>
+                  <p className="skills__p">{detail.speciality}</p>
+                </li>
+              ))}
+            </ul>
+          </div> 
+
+        </div>
+      )})}
       </div>
     </section>
   );

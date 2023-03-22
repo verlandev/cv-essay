@@ -2,7 +2,7 @@
     padding-top: 8em;
     width: 100%;
     background-color: #201e37;
-    padding-bottom: 5em;
+    padding-bottom: 2em;
 
     &__title{
         display: flex;
@@ -28,16 +28,18 @@
     }
 }
 
-.habilitiesContainer{
+.habilitiesContainer,
+.professionContainer{
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2em;
+    padding-top: 1em;
 }
 
-.personalSkills, .languages{
+.skills{
 
     background-color: #2a2a66;
     padding: 2em;
@@ -71,7 +73,7 @@
 
     &__img{
 
-        width: 1.5em;
+        width: 35px;
 
     }
 
@@ -89,7 +91,7 @@
 
 @media screen and (max-width:1400px) {
 
-    .personalSkills, .languages{
+    .skills{
 
         &__ul{
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))
@@ -100,14 +102,15 @@
 
 @media screen and (max-width: 1200px) {
 
-    .habilitiesContainer{
+    .habilitiesContainer,
+    .professionContainer{
         flex-direction: column;
         width: 50%;
         justify-content: center;
         margin: auto;
     }
     
-    .personalSkills, .languages{
+    .skills{
         width: 90%;
         margin:auto
 
@@ -122,7 +125,7 @@
         width: 100%;
     }
 
-    .personalSkills, .languages{
+    .skills{
         width: auto;
     }
 }
@@ -138,7 +141,7 @@
         width: 100%;
     }
 
-    .personalSkills, .languages{
+    .skills{
         width: 90%;
     }
 }

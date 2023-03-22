@@ -245,6 +245,13 @@
 
 @media screen and (max-width: 400px){
    
+   
+    .aboutPresentation{
+
+        &__p{
+            width: 90%;
+        }
+    }
     
     .aboutContainers{
         flex-direction: column;

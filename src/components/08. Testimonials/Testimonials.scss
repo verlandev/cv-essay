@@ -25,6 +25,7 @@
         margin: auto;
         line-height: 1.5em;
         font-size: 1.1em;
+        
     }
 
 }
@@ -157,9 +158,9 @@
         .slide{
             
             .testimonial{
-                height: 700px;
                 justify-content: flex-start;
                 text-align: center;
+                font-size: 13px;
 
                 
                 &__p{
@@ -182,7 +183,7 @@
         .slide{
             
             .testimonial{
-                min-height: 600px;
+                min-height: 550px;
                 justify-content: flex-start;
                 text-align: center;
 

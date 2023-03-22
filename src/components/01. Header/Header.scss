@@ -39,6 +39,7 @@
   
   &__p {
     letter-spacing: 0.1em;
+    
   }
 
   &__image {
@@ -109,4 +110,18 @@
       }
     }
 
+}
+
+@media screen and (max-width: 400px){
+  .presentation{
+    text-align: center;
+
+    &__h5{
+      
+      &--position{
+        margin-top: 1em;
+        line-height: 1.5em;
+      }
+    }
+  }
 }

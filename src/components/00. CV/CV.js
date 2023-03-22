@@ -16,7 +16,6 @@ const CV = {
            también diseño las estrategias de venta. 
            Si además le añadimos todo lo que sé sobre Desarrollo Web como Full Stack, 
            podrás adivinar lo cómoda que me encuentro en el mundo digital.`,
-          // `"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`
       },
 
       {
@@ -100,85 +99,103 @@ const CV = {
     }
   ],
 
-  services: [
-    {
-      name: 'Desarrollo Web',
-      info: ['HTML', 'CSS', 'Javascript', 'Node JS', 'React', 'MongoDB'],
-      logos: [
-        'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-        'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-        'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
-        'https://ugeek.github.io/blog/images-blog/node.png',
-        'https://cdn-icons-png.flaticon.com/512/1126/1126012.png',
-        'https://w7.pngwing.com/pngs/63/19/png-transparent-mongodb-database-nosql-postgresql-mongo-text-logo-business-thumbnail.png'
-
-
-      ]
-
-    },
-
-    {
-      name:'Copywriting',
-      info: ['Landing Pages','Secuencias de emails', 'Copy para ads', 'Copy Web']
-    }
-
-  ],
-
-  // services:[
+  // services: [
   //   {
-  //     name:'Desarrollo Web',
-  //     info: [
-  //       {
-  //         language: 'HTML',
-  //         logo: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png'
-  //       },
-  //       {
-  //         language:'CSS',
-  //         logo: 'https://cdn-icons-png.flaticon.com/512/732/732190.png'
-  //       },
-  //       {
-  //         language:'Javascript',
-  //         logo:'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
-  //       },
-  //       {
-  //         language: 'Node JS',
-  //         logo:'https://ugeek.github.io/blog/images-blog/node.png'
-  //       },
-  //       {
-  //         language:'React',
-  //         logo:'https://cdn-icons-png.flaticon.com/512/1126/1126012.png',
-  //       },
-  //       {
-  //         language:'Angular',
-  //         logo:'https://w7.pngwing.com/pngs/752/651/png-transparent-angularjs-vue-js-others-angle-rectangle-triangle-thumbnail.png',
-  //       },
-  //       {
-  //         language:'MongoDB',
-  //         logo:'https://w7.pngwing.com/pngs/63/19/png-transparent-mongodb-database-nosql-postgresql-mongo-text-logo-business-thumbnail.png',
-  //       }
+  //     name: 'Desarrollo Web',
+  //     info: ['HTML', 'CSS', 'Javascript', 'Node JS', 'React', 'MongoDB'],
+  //     logos: [
+  //       'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
+  //       'https://cdn-icons-png.flaticon.com/512/732/732190.png',
+  //       'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
+  //       'https://ugeek.github.io/blog/images-blog/node.png',
+  //       'https://cdn-icons-png.flaticon.com/512/1126/1126012.png',
+  //       'https://w7.pngwing.com/pngs/63/19/png-transparent-mongodb-database-nosql-postgresql-mongo-text-logo-business-thumbnail.png'
   //     ]
+
   //   },
+
   //   {
-  //         name:'Copywriting',
-  //         info: ['Landing Pages','Secuencias de emails', 'Copy para ads', 'Copy Web']
-  //       }
+  //     name:'Copywriting',
+  //     info: ['Landing Pages','Secuencias de emails', 'Copy para ads', 'Copy Web']
+  //   }
+
   // ],
+
+  services:[
+    {
+      profession:'Desarrollo Web',
+      details: [
+        {
+          speciality: 'HTML',
+          logo: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png'
+        },
+        {
+          speciality:'CSS',
+          logo: 'https://cdn-icons-png.flaticon.com/512/732/732190.png'
+        },
+        {
+          speciality:'Javascript',
+          logo:'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
+        },
+        {
+          speciality: 'Node JS',
+          logo:'https://ugeek.github.io/blog/images-blog/node.png'
+        },
+        {
+          speciality:'React',
+          logo:'https://cdn-icons-png.flaticon.com/512/1126/1126012.png',
+        },
+        {
+          speciality:'Angular',
+          logo:'https://w7.pngwing.com/pngs/752/651/png-transparent-angularjs-vue-js-others-angle-rectangle-triangle-thumbnail.png',
+        },
+        {
+          speciality:'MongoDB',
+          logo:'https://w7.pngwing.com/pngs/63/19/png-transparent-mongodb-database-nosql-postgresql-mongo-text-logo-business-thumbnail.png',
+        }
+      ],
+    },
+    {
+      profession: 'Copywriting',
+      details: [
+        {
+          speciality: 'Landing Pages',
+          logo: 'https://cdn-icons-png.flaticon.com/512/10105/10105913.png'
+        },
+        {
+          speciality:'Secuencias de emails',
+          logo: 'https://cdn-icons-png.flaticon.com/512/3349/3349258.png'
+        },
+        {
+          speciality:'Copy para ads',
+          logo:'https://cdn-icons-png.flaticon.com/512/6544/6544688.png',
+        },
+        {
+          speciality:'Copy Web',
+          logo: 'https://cdn-icons-png.flaticon.com/512/3971/3971114.png'
+        },
+        {
+          speciality:'Guiones de vídeo',
+          logo:'https://cdn-icons-png.flaticon.com/512/189/189638.png',
+        },
+      ]
+    }
+  ],
   
   testimonials: [
-    {
-      image: "https://media.licdn.com/dms/image/D4E03AQFlnvIHJcW6yw/profile-displayphoto-shrink_400_400/0/1669290906145?e=1680134400&v=beta&t=gr6XilOtAVW4_pdSYLr5BB4Xs1OP4NuaiqMvjfS9sjw",
-      name: "Sarai Fénix",
-      position: "Copywriter",
-      def:"Antigua alumna y compi de mesa",
-      text: '"A lo largo de mi vida laboral no he conocido persona más capacitada que Beatriz. Y lo digo con conocimiento de causa. Ella ha sido mi tutora, mi mentora, mi superior y el apoyo más grande que he tenido en esta aventura que es el mundo del copywriting. Tiene un perfil completo hasta decir basta. Es rigurosa en su trabajo, eficaz, eficiente y comprometida. No importa la cantidad y calidad que necesite el proyecto, ella siempre llega a tiempo y supera las expectativas. Si hay alguien a quien aspiro a parecerme como copywriter, sin duda, es a ella."'    
-    },
-
     {
       image:"https://media.licdn.com/dms/image/C5603AQFa7rRmZQo3IA/profile-displayphoto-shrink_400_400/0/1543751929854?e=1680134400&v=beta&t=1Bjqbq_Ovkqps7E4NuBMX15plh0MJkYgpw5E0-R9_OY",
       name: "Ángela Puga García",
       position: "Account Manager",
       def:"Compañera en las venturas y desventuras del máster",
       text: '"Si ya de por sí fue un auténtico placer trabajar mano a mano con Beatriz en el ámbito académico, ver cómo ha crecido profesionalmente es todo un orgullo. Trabajadora de 10, incansable y siempre con el objetivo puesto en la calidad. Difícilmente alguien se puede arrepentir de compartir ámbito laboral con ella o de contratar sus servicios."'
+    },
+    {
+      image: "https://media.licdn.com/dms/image/D4E03AQFlnvIHJcW6yw/profile-displayphoto-shrink_400_400/0/1669290906145?e=1680134400&v=beta&t=gr6XilOtAVW4_pdSYLr5BB4Xs1OP4NuaiqMvjfS9sjw",
+      name: "Sarai Fénix",
+      position: "Copywriter",
+      def:"Antigua alumna y compi de mesa",
+      text: '"A lo largo de mi vida laboral no he conocido persona más capacitada que Beatriz. Y lo digo con conocimiento de causa. Ella ha sido mi tutora, mi mentora, mi superior y el apoyo más grande que he tenido en esta aventura que es el mundo del copywriting. Tiene un perfil completo hasta decir basta. Es rigurosa en su trabajo, eficaz, eficiente y comprometida. No importa la cantidad y calidad que necesite el proyecto, ella siempre llega a tiempo y supera las expectativas. Si hay alguien a quien aspiro a parecerme como copywriter, sin duda, es a ella."'    
     },
 
     {
